@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Lobster+Two&family=Truculenta:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+  background: linear-gradient(#E8B7B7, #5FC0BD);
+}
+
+.cabecalho {
+   display: flex; 
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   padding: 32px;
+}
+
+.cabecalho-imagem {
+    height: 350px;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: -70px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 120px;
+    margin-top: -50px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.cabecalho-menu-item {
+    font-family: 'Lilita One', cursive;
+    color: #FFFFFF; 
+    font-weight: 400;
+    font-size: 21px;
+    border-bottom: 0.4px solid #FFFFFF;
+}
+
+.conteudo {
+   margin-bottom: 98px;
+}
+
+.conteudo-principal {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-around;
+   margin-top: 48px;
+}
+
+.conteudo-principal-escrito {
+   display: flex;
+   flex-direction: column;
+   gap: 32px;
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family: 'Lobster Two', cursive;
+    font-weight: 400;
+    font-size: 50px;
+    color: #FFFFFF;
+}
+
+.conteudo-principal-escrito-subtitulo {
+    font-family: 'Lilita One', cursive;
+    font-weight: 400;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+.conteudo-principal-escrito-botao {
+    background-color: #FFFFFF;
+    width: 240px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Lilita One', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFCCCC;
+}
+
+.conteudo-principal-escrito-botao:hover {
+    background-color: #E8B7B7;
+}
+
+.conteudo-principal-imagem {
+    height: 400px;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 198px;
+}
+
+.conteudo-secundario-titulo {
+    border-top: 0.4px solid #FFFFFF;
+    padding-top: 60px;
+    font-family: 'Lobster Two', cursive;
+    font-weight: 400;
+    font-size: 30px;
+    color: #FFFFFF;
+    margin-bottom: 16px;           
+}
+
+.conteudo-secundario-paragrafo {
+    font-family: 'Lilita One', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    text-justify: inter-word;
+    text-align: center;
+    text-align-last: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    color: #FFFFFF;
+    padding: 12px;
+    text-rendering: auto;                      
+}
+
+.rodape {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+    padding: 32px;
+    margin: 0 auto;
+    border-top: 0.4px solid #FFFFFF;
+}
+
+.rodape-texto {
+    font-family: 'Lobster Two', cursive;
+    font-weight: 400;
+    font-size: 17px;
+    color: #FFFFFF;
+}    
